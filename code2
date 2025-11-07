@@ -1,0 +1,44 @@
+#to program a simple calculator 
+
+def add( x , y) :
+    return x + y
+
+def substraction( x , y) :
+    return x - y 
+
+def multiplication( x , y) :
+    return x * y
+
+def division( x , y ) :
+    if y == 0 : 
+        return "error"
+    else : 
+        return x / y
+
+#input from user 
+print("select operation.")
+
+print("1. add")
+print("2. substarction")
+print("3. multiplication")
+print("4. division")
+
+choice = input("enter your choice (1 , 2 , 3 ,4):")
+
+x = float(input("enter the first number : "))
+y = float(input("enter the second number: "))
+
+if choice == "1":
+    print(f"{add( x , y)}")
+
+elif choice == "2":
+    print(f"{substraction( x , y)}")
+
+elif choice == "3":
+    print(f"{multiplication( x , y)}")
+
+elif choice == "4":
+    print(f"{division( x , y)}")
+
+else :
+    print("error")
