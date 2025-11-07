@@ -1,0 +1,55 @@
+# grading of subjects 
+
+def physics():
+  pass
+
+def chemistry():
+  pass
+
+def maths():
+   pass
+
+def english():
+     pass   
+
+def biology():
+    pass
+
+def average():
+   pass
+    
+# input from the user 
+
+print(" ENTER THE MARKS ")
+
+physics = float(input(" physics."))
+
+chemistry = float(input(" chemistry."))
+
+maths = float(input(" maths."))
+
+english = float(input(" emglish."))
+
+biology = float(input(" biology."))
+
+average = (physics + chemistry + maths + english + biology) / 5 
+
+print(f" \n average of marks is : {average} ")
+
+if 80 <= average <= 100:
+   print(" grade - A ")
+
+elif 60 <= average < 80:
+   print(" grade is B ")
+
+elif 40 < average < 60:
+   print(" grade is C")
+
+elif 20 < average < 40 :
+   print(" grade is D")
+
+else: 
+   print (" you are fail")
+
+   
+
