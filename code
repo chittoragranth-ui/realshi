@@ -1,0 +1,9 @@
+# vowel or consonant guesser
+
+alphabet = str(input("enter a alphabet"))
+
+if alphabet in "aeiouAEIOU":
+    print("the alphabet is vowel")
+
+else: 
+    print("the alphabet is consonent")
