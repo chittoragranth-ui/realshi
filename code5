@@ -1,0 +1,27 @@
+# largest of three number 
+
+def number1 ():
+   pass
+
+def number2 ():
+   pass
+
+def number3 ():
+   pass
+
+number1 = int(input("number 1  = "))
+
+number2 = int(input("number 2  = "))
+
+number3 = int(input("number 3  = "))
+
+if number1 > number2 and number1 > number3 :
+   print("number 1 is largest ")
+
+elif number2 > number1 and number2 > number3  :
+   print("number 2 is largest ")
+
+elif number3 > number1 and number3 > number2  :
+   print("number 3 is largest ")
+
+
