@@ -1,0 +1,24 @@
+# simple interest calculator 
+
+def principal():
+    pass
+
+def rate():
+    pass
+
+def time():
+    pass
+
+principal = int(input("principal amount is - "))
+
+rate = int(input(" % of interest is - "))
+
+time = int(input(" how many years -"))
+
+simpleinterest = (principal * rate * time ) / 100 
+
+print("your interest on money is:", simpleinterest )
+
+totalamount = simpleinterest + principal
+
+print("amount you have to give in the end:", totalamount)
