@@ -1,0 +1,11 @@
+# celsius to fahrenheit converter
+
+def fahrenite():
+    pass
+
+
+celsius = float(input(" temperature in celsius is : "))
+
+fahrenheit = celsius * ( 9 /5 ) + 32 
+
+print(f"then temperature in fahrenite :" , {fahrenheit} )
