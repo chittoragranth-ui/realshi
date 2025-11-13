@@ -1,0 +1,11 @@
+# convert minutes into seconds and hours 
+
+minutes = float(input(" number of minutes :"))
+
+seconds = minutes * 60 
+
+hours = minutes / 60 
+
+print(f" number of seconds is :" , {seconds} )
+
+print(f" number of hours is : " , {hours})
