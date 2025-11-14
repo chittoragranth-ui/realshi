@@ -1,0 +1,15 @@
+# electricity bill calculator
+
+units_used = float(input(" units used : "))
+
+rate_per_unit = float(input(" rate per given is ;"))
+
+fixed_charges = float(input(" fixed charges mentioned is :")) 
+
+bill = units_used * rate_per_unit + fixed_charges 
+
+if bill <= 0 :
+    print(" error")
+
+elif bill > 0 :
+    print(f" your electricity bill is : " , {bill} )
